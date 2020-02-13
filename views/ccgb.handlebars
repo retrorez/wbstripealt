@@ -1,0 +1,64 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="display-4 mt-3 pt-2">
+                WalletBlocker 
+            </h1>
+                <p><i>CupcakeGoBoom Support Page</p></i>
+
+                <h2 class="display-5 pt-3">RFID Defense Card</h2> 
+                <p class="lead">Protect your ASSets</p>
+
+                <form action="/charge3" method="POST">
+                <script 
+                src="https://checkout.stripe.com/checkout.js" 
+                class="stripe-button" 
+                data-key="{{stripePublishableKey}}" 
+                data-amount="1999"
+                data-name="Walletblocker" 
+                data-description="RFID Defense Card" 
+                data-image="/img/marketplace.png"
+                data-locale="auto"
+                data-zip-code = "true"
+                data-shipping-address="true"
+                data-billing-address="true">
+                </script>
+                <script>
+                    //hide default stripe button
+                    document.getElementsByClassName('stripe-button-el')[0].style.display='none';
+                </script>
+                <button type="submit" class="btn btn-outline-dark text-white btn-lg mt-3">1 for $19.99</button>
+                
+            </form>
+            <form action="/charge4" method="POST">
+                <script 
+                src="https://checkout.stripe.com/checkout.js" 
+                class="stripe-button" 
+                data-key="{{stripePublishableKey}}" 
+                data-amount="2999"
+                data-name="Walletblocker" 
+                data-description="RFID Defense Card" 
+                data-image="/img/marketplace.png"
+                data-locale="auto"
+                data-zip-code = "true"
+                data-shipping-address="true"
+                data-billing-address="true">
+                </script>
+                <script>
+                    //hide default stripe button
+                    document.getElementsByClassName('stripe-button-el')[1].style.display='none';
+                </script>
+                <button type="submit" class="btn btn-outline-dark text-white btn-lg mt-3">2 for $29.99</button>
+                
+            </form>
+        </div>
+        <div class="col-md-6 wbImage">
+            <img src="/img/walletblockercard1.png" alt="" class="img-fluid py-5">
+        </div>
+        <div class="col-md-6 wbImage">
+            <img src="/img/walletblockercard2.png" alt="" class="img-fluid py-5">
+        </div>
+        
+        
+    </div>
+</section>

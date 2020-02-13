@@ -1,0 +1,44 @@
+.bg-gradient {
+    background-image: linear-gradient(rgb(0,174,235), rgb(235,146,0),rgb(0,174,235));
+    background-size: cover;
+}
+
+.displayList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.wbtitleimg img{
+    max-height: 70px;
+}
+
+.subtitle{
+    font-family: 'Orbitron';
+
+}
+.subtext{
+    font-family: 'Orbitron' ;
+
+}
+
+.displayList li {
+    display: inline;
+    
+}
+
+.displayList img {
+    
+    border-radius: 25px;
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.wbImage img {
+    border-radius: 25px;
+    
+}
